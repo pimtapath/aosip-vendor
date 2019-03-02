@@ -70,9 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/aosip/prebuilt/common/etc/sysconfig/aosip-power-whitelist.xml:system/etc/sysconfig/aosip-power-whitelist.xml \
     vendor/aosip/prebuilt/common/etc/sysconfig/aosip-privapp-permissions.xml:system/etc/permissions/aosip-privapp-permissions.xml \
     vendor/aosip/prebuilt/common/etc/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml \
-    vendor/aosip/prebuilt/common/etc/sysconfig/turbo.xml:system/etc/sysconfig/turbo.xml \
-    vendor/aosip/prebuilt/common/etc/sysconfig/org.pixelexperience.weather.client.xml:system/etc/permissions/org.pixelexperience.weather.client.xml \
-    vendor/aosip/prebuilt/common/etc/sysconfig/org.pixelexperience.weather.client-default.xml:system/etc/default-permissions/org.pixelexperience.weather.client.xml
+    vendor/aosip/prebuilt/common/etc/sysconfig/turbo.xml:system/etc/sysconfig/turbo.xml
 
 # Do not include art debug targets
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
